@@ -1,5 +1,7 @@
 from sys import stdin
 
+input = stdin.readline
+
 n = int(input())
 
 tree = {}
@@ -7,8 +9,6 @@ tree = {}
 for _ in range(n):
     p, l, r = [int(x) for x in input().split()]
     tree[p] = [l, r]
-
-# print(tree)
 
 current = tree[1][1]
 cnt = 0
@@ -23,5 +23,4 @@ while True:
     if current == -1:
         break
 
-# print(cnt)
 print((n-cnt-1)*2+cnt)
