@@ -16,8 +16,6 @@ for _ in range(n+m):
     if flag == '1' and c not in directory.keys():
         directory[c] = []
 
-# print(directory)
-
 n = int(input())
 
 for _ in range(n):
@@ -36,8 +34,3 @@ for _ in range(n):
             file_cnt += 1
 
     print(len(files), file_cnt)
-    # 4
-    # main
-    # main/FolderA
-    # main/FolderB
-    # main/FolderB/FolderC
