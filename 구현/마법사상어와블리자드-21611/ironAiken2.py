@@ -4,9 +4,6 @@ input = stdin.readline
 n, m = [int(x) for x in input().split()]
 arr = [[0 for _ in range(n+1)]] + [[0] + [int(x) for x in input().split()] for _ in range(n)]
 
-for a in arr:
-    print(a)
-
 x, y = (n+1)//2, (n+1)//2
 ans = 0
 
@@ -47,17 +44,17 @@ def get_all_marbles() -> list:
     marbles.append(arr[next_x][next_y])
 
     while True:
-        if next_x == 1 and next_y == 1:
+        if next_x <= 1 and next_y <= 1:
             return marbles
         
         for _ in range(dist):
-            if next_x == 1 and next_y == 1:
+            if next_x <= 1 and next_y <= 1:
                 return marbles
             next_x += moves[dirc][0]
             next_y += moves[dirc][1]
             if arr[next_x][next_y] != 0:
                 marbles.append(arr[next_x][next_y])
-
+        
         dirc += 1 if dirc < 4 else -3
 
         flag += 1
@@ -78,7 +75,7 @@ def explore_marbles():
         for i, num in enumerate(current):
             if num == save:
                 cnt += 1
-            else:            
+            else:
                 if cnt >= 4:
                     ans += save * cnt
                     for ii in range(1, cnt + 1):
@@ -88,8 +85,9 @@ def explore_marbles():
                 save = num
                 cnt = 1
         
+        if cnt >= 4:
+            ans += save * cnt
         result = []
-
 
         for num in current:
             if num != -1:
@@ -102,8 +100,7 @@ def change_marbles():
     cnt = 0
     save = 0
     result = []
-
-    for num in current[1:]:
+    for num in current:
         if num == save:
             cnt += 1
         else:
@@ -111,6 +108,9 @@ def change_marbles():
             result.append(save)
             save = num
             cnt = 1
+    if save == current[-1]:
+        result.append(cnt)
+        result.append(save)
     current = result[1:]
 
 def fill_the_marbles():
@@ -126,14 +126,14 @@ def fill_the_marbles():
             return
         
         for _ in range(dist):
-            if next_x == 1 and next_y == 1:
+            if next_x <= 1 and next_y <= 1:
                 return
             next_x += moves[dirc][0]
             next_y += moves[dirc][1]
 
             try:
                 arr[next_x][next_y] = current[i]
-            except IndexError:
+            except:
                 arr[next_x][next_y] = 0
             i += 1
 
@@ -152,6 +152,5 @@ for _ in range(m):
     explore_marbles()
     change_marbles()
     fill_the_marbles()
-
 
 print(ans)
