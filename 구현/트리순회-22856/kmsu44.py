@@ -1,4 +1,4 @@
-from collections import defaultdict
+
 import sys
 input = sys.stdin.readline
 sys.setrecursionlimit(10**5)
@@ -49,7 +49,3 @@ while True:
             node = graph[node][2]
             cnt += 1
 print(cnt)
-
-# 2
-# 1 2 -1
-# 2 -1 -1
