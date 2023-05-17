@@ -13,6 +13,7 @@ for _ in range(m):
 s, e = [int(x) for x in input().split()]
 
 for node in nodes:
+    #이거 정렬 하나때문에 세시간 씀
     node.sort()
 
 def bfs(x: int, e: int) -> list:
@@ -45,4 +46,3 @@ result = bfs(s, e)
 ans += len(result) - 1
 
 print(ans)
-
