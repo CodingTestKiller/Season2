@@ -54,6 +54,7 @@
 |  3   |   16637   |           [괄호 추가하기](https://www.acmicpc.net/problem/16637)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 완전탐색 |
 |  3   |   22944   |           [죽음의 비](https://www.acmicpc.net/problem/22944)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 완전탐색 |
 
+
 ## 스터디 진행 순서
 
 | 순번 |    분류    |
