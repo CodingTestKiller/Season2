@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 3**
+> **푼 문제 수: 6**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |  분류  |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :----: |
@@ -50,6 +50,9 @@
 |  2   |   22860   |           [폴더 정리 (small)](https://www.acmicpc.net/problem/22860)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 구현 |
 |  2   |   21611   | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 구현 |
 |  2   |   22856   |           [트리 순회](https://www.acmicpc.net/problem/22856)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 구현 |
+|  3   |   15686   |           [치킨 배달](https://www.acmicpc.net/problem/15686)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 완전탐색 |
+|  3   |   16637   |           [괄호 추가하기](https://www.acmicpc.net/problem/16637)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 완전탐색 |
+|  3   |   22944   |           [죽음의 비](https://www.acmicpc.net/problem/22944)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 완전탐색 |
 
 ## 스터디 진행 순서
 
