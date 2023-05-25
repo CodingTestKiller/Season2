@@ -40,20 +40,25 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 6**
+> **푼 문제 수: 12**
 
-| 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |  분류  |
-| :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :----: |
-|  1   |   10986   |               [나머지 합](https://www.acmicpc.net/problem/10986)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 누적합 |
-|  1   |   20440   | [니가 싫어(니가 싫어 싫어 너무 싫어...)](https://www.acmicpc.net/problem/20440) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 누적합 |
-|  1   |   20543   |           [폭탄 던지는 태영이](https://www.acmicpc.net/problem/20543)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 누적합 |
-|  2   |   22860   |           [폴더 정리 (small)](https://www.acmicpc.net/problem/22860)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 구현 |
-|  2   |   21611   | [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 구현 |
-|  2   |   22856   |           [트리 순회](https://www.acmicpc.net/problem/22856)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 구현 |
-|  3   |   15686   |           [치킨 배달](https://www.acmicpc.net/problem/15686)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> | 완전탐색 |
-|  3   |   16637   |           [괄호 추가하기](https://www.acmicpc.net/problem/16637)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 완전탐색 |
-|  3   |   22944   |           [죽음의 비](https://www.acmicpc.net/problem/22944)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 완전탐색 |
-
+| 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
+| :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
+|  1   |   10986   |               [나머지 합](https://www.acmicpc.net/problem/10986)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   누적합    |
+|  1   |   20440   | [니가 싫어(니가 싫어 싫어 너무 싫어...)](https://www.acmicpc.net/problem/20440) | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   누적합    |
+|  1   |   20543   |           [폭탄 던지는 태영이](https://www.acmicpc.net/problem/20543)           | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |   누적합    |
+|  2   |   22860   |           [폴더 정리 (small)](https://www.acmicpc.net/problem/22860)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |    구현     |
+|  2   |   21611   |         [마법사 상어와 블리자드](https://www.acmicpc.net/problem/21611)         | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |    구현     |
+|  2   |   22856   |               [트리 순회](https://www.acmicpc.net/problem/22856)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |    구현     |
+|  3   |   22868   |                 [산책 ](https://www.acmicpc.net/problem/22868)                  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |   그래프    |
+|  3   |   22946   |              [원 이동하기1](https://www.acmicpc.net/problem/22946)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   그래프    |
+|  3   |   2573    |                  [빙산](https://www.acmicpc.net/problem/2573)                   | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |   그래프    |
+|  4   |   15686   |               [치킨 배달](https://www.acmicpc.net/problem/15686)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |  완전탐색   |
+|  4   |   16637   |             [괄호 추가하기](https://www.acmicpc.net/problem/16637)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |  완전탐색   |
+|  4   |   22944   |               [죽음의 비](https://www.acmicpc.net/problem/22944)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |  완전탐색   |
+|  5   |   9466    |               [텀 프로젝트](https://www.acmicpc.net/problem/9466)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 그래프 탐색 |
+|  5   |   16932   |              [모양 만들기](https://www.acmicpc.net/problem/16932)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 그래프 탐색 |
+|  5   |   16985   |             [ Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 그래프 탐색 |
 
 ## 스터디 진행 순서
 
