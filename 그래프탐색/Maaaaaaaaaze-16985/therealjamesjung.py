@@ -57,6 +57,9 @@ for sequence in sequences:
                         matrix = [map1, map2, map3, map4, map5]
                         if matrix[0][0][0] == 1 and matrix[4][4][4] == 1:
                             result = min(result, bfs(matrix))
+                            if result == 12:
+                                print(12)
+                                exit()
 
 if result == 1000000000:
     print(-1)
