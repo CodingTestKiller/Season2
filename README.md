@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 12**
+> **푼 문제 수: 15**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
@@ -59,6 +59,9 @@
 |  5   |   9466    |               [텀 프로젝트](https://www.acmicpc.net/problem/9466)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 그래프 탐색 |
 |  5   |   16932   |              [모양 만들기](https://www.acmicpc.net/problem/16932)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 그래프 탐색 |
 |  5   |   16985   |             [ Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 그래프 탐색 |
+|  6   |   17136   |            [ 색종이 붙이기 ](https://www.acmicpc.net/problem/17136)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  백트래킹   |
+|  6   |   2239    |                [ 스도쿠 ](https://www.acmicpc.net/problem/2239)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  백트래킹   |
+|  6   |   18430   |            [ 색종이 붙이기 ](https://www.acmicpc.net/problem/18430)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  백트래킹   |
 
 ## 스터디 진행 순서
 
