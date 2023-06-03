@@ -61,7 +61,7 @@
 |  5   |   16985   |             [ Maaaaaaaaaze](https://www.acmicpc.net/problem/16985)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> | 그래프 탐색 |
 |  6   |   17136   |            [ 색종이 붙이기 ](https://www.acmicpc.net/problem/17136)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  백트래킹   |
 |  6   |   2239    |                [ 스도쿠 ](https://www.acmicpc.net/problem/2239)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  백트래킹   |
-|  6   |   18430   |            [ 색종이 붙이기 ](https://www.acmicpc.net/problem/18430)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  백트래킹   |
+|  6   |   18430   |              [ 무기 공학 ](https://www.acmicpc.net/problem/18430)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  백트래킹   |
 
 ## 스터디 진행 순서
 
