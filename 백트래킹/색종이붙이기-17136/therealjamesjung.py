@@ -25,7 +25,6 @@ def remove_paper(board, x, y, k):
 
 
 board = [[int(x) for x in input().split()] for _ in range(10)]
-visited = [[False for _ in range(10)] for _ in range(10)]
 
 papers = [0, 5, 5, 5, 5, 5]
 min_cnt = 26
