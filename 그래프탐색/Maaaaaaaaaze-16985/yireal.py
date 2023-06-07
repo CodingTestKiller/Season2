@@ -15,6 +15,7 @@ offset = [[]]*3
 offset[0] = [l_set,r_set,v1_set,c1_set]
 offset[1] = [v2_set,c2_set]
 offset[2] = [center]
+cube_set =[-1,1]
 move = [(-1,0),(0,-1),(1,0),(0,1)]
 que = deque()
 def portal(x,y):
@@ -25,12 +26,11 @@ def portal(x,y):
 
                 
 def bfs():
-    cube_level = 0
-    cnt = 0
-    que.append((0,0,0,0))
+    que.append((0,0,0,1))
     while que:
         x,y,cube_level,cnt = que.popleft()
         print(x,y,cube_level,cnt)
+        visit.append((x,y,cube_level))
         if x == 4 and y == 4 and cube_level == 4:
             print(cnt)
             exit(0)
@@ -38,35 +38,25 @@ def bfs():
         for pos in spin:
             nx = pos[0]
             ny = pos[1]
-            if cube_level == 0:
-                if cube[cube_level+1][ny][nx] == 0 and visit[cube_level+1][ny][nx] == 0:
-                    visit[cube_level+1][ny][nx] = 1
-                    que.append((nx,ny,cube_level+1,cnt+1))
-            elif cube_level == 4:
-                if cube[cube_level-1][ny][nx] == 0 and visit[cube_level-1][ny][nx] == 0:
-                    visit[cube_level-1][ny][nx] = 1
-                    que.append((nx,ny,cube_level-1,cnt+1))
-            else:
-                print(visit[cube_level+1][ny][nx])
-                if cube[cube_level+1][ny][nx] == 0 and visit[cube_level+1][ny][nx] == 0:
-                    visit[cube_level+1][ny][nx] = 1
-                    que.append((nx,ny,cube_level+1,cnt+1))
-                if cube[cube_level-1][ny][nx] == 0 and visit[cube_level-1][ny][nx] == 0:
-                    visit[cube_level-1][ny][nx] = 1
-                    que.append((nx,ny,cube_level-1,cnt+1))
+            for c in cube_set:
+                nc = cube_level + c
+                if nc < 0 or nc > 4:
+                    continue
+                if cube[nc][ny][nx] == 1 or (nx,ny,nc) in visit:
+                    continue
+                que.append((nx,ny,nc,cnt+1))
         if cube[cube_level][y][x] == 0:
             for pos in move:
                 nx = x + pos[0]
                 ny = y + pos[1]
                 if nx < 0 or ny < 0 or nx >= SIZE or ny >= SIZE:
                     continue
-                if cube[cube_level][ny][nx] == 1 or visit[cube_level][ny][nx] == 1:
+                if cube[cube_level][ny][nx] == 1 or (nx,ny,cube_level) in visit:
                     continue
-                visit[cube_level][ny][nx] = 1
                 que.append((nx,ny,cube_level,cnt+1))                   
                 
         
 for cube in permutations(input_cube,SIZE):
-    visit = [[[0]*SIZE]*SIZE]*SIZE
+    visit = []
     bfs()
 print(-1)
