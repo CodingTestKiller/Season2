@@ -14,8 +14,10 @@ for word in words:
         if j in T:
             continue
         alphabet.add(j)
-if k < 0:
+if k <= 0:
     print(0)
+elif len(alphabet) < k:
+    print(n)
 else:
     res = 0
     L = list(combinations(alphabet, k))
