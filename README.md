@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 18**
+> **푼 문제 수: 22**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
@@ -66,6 +66,9 @@
 |  7   |   16438   |            [ 원숭이 스포츠 ](https://www.acmicpc.net/problem/16438)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> | 비트마스킹  |
 |  7   |   1062    |                [ 가르침 ](https://www.acmicpc.net/problem/1062)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> | 비트마스킹  |
 |  7   |   1035    |             [ 조각 움직이기 ](https://www.acmicpc.net/problem/1035)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> | 비트마스킹  |
+|  8   |   2141    |                [ 우체국 ](https://www.acmicpc.net/problem/2141)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |   그리디    |
+|  8   |   2812    |              [ 크게 만들기 ](https://www.acmicpc.net/problem/2812)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   그리디    |
+|  8   |   21925   |            [ 짝수 팰린드롬 ](https://www.acmicpc.net/problem/21925)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   그리디    |
 
 ## 스터디 진행 순서
 
