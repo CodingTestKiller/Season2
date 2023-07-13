@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 22**
+> **푼 문제 수: 25**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
@@ -69,9 +69,12 @@
 |  8   |   2141    |                [ 우체국 ](https://www.acmicpc.net/problem/2141)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |   그리디    |
 |  8   |   2812    |              [ 크게 만들기 ](https://www.acmicpc.net/problem/2812)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   그리디    |
 |  8   |   21925   |            [ 짝수 팰린드롬 ](https://www.acmicpc.net/problem/21925)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |   그리디    |
-|  9   |   20442    |                [ ㅋㅋ루ㅋㅋ ](https://www.acmicpc.net/problem/20442)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |   투포인터    |
-|  9   |   22862    |              [ 가장 긴 짝수 연속한 부분수열(large) ](https://www.acmicpc.net/problem/22862)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |   투포인터    |
-|  9   |   7453    |                [ 합이 0인 네 정수 ](https://www.acmicpc.net/problem/7453)                 | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |   투포인터    |
+|  9   |   20442   |              [ ㅋㅋ루ㅋㅋ ](https://www.acmicpc.net/problem/20442)              | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  투포인터   |
+|  9   |   22862   | [ 가장 긴 짝수 연속한 부분수열(large) ](https://www.acmicpc.net/problem/22862)  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/11.svg"/> |  투포인터   |
+|  9   |   7453    |           [ 합이 0인 네 정수 ](https://www.acmicpc.net/problem/7453)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  투포인터   |
+|  10  |   1477    |             [ 휴게소 세우기 ](https://www.acmicpc.net/problem/1477)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  이분탐색   |
+|  10  |   6209    |            [ 제자리 멀리뛰기 ](https://www.acmicpc.net/problem/6209)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |  이분탐색   |
+|  10  |   15823   |           [ 카드팩 구매하기 ](https://www.acmicpc.net/problem/15823)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  이분탐색   |
 
 ## 스터디 진행 순서
 
