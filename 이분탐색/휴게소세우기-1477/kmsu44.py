@@ -11,16 +11,16 @@ pos.sort()
 l, r = 1, L-1
 
 ans = 0
-while l <= r:
+while l < r:
     cnt = 0
     mid = (l+r) // 2
     for i in range(1, len(pos)):
-        if (pos[i] - pos[i-1]) > mid:
+        if (pos[i] - pos[i-1]-1) >= mid:
             cnt += (pos[i] - pos[i-1]-1) // mid
     if cnt > M:
         l = mid+1
     else:
-        r = mid-1
-        ans = mid
+        r = mid
 
-print(ans)
+
+print(r)
