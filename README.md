@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 31**
+> **푼 문제 수: 34**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
@@ -75,6 +75,9 @@
 |  10  |   1477    |             [ 휴게소 세우기 ](https://www.acmicpc.net/problem/1477)             | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |  이분탐색   |
 |  10  |   6209    |            [ 제자리 멀리뛰기 ](https://www.acmicpc.net/problem/6209)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |  이분탐색   |
 |  10  |   15823   |           [ 카드팩 구매하기 ](https://www.acmicpc.net/problem/15823)            | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  이분탐색   |
+|  11  |   2758    |                 [ 로또 ](https://www.acmicpc.net/problem/2758)                  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |     DP      |
+|  11  |   1005    |               [ ACM Craft ](https://www.acmicpc.net/problem/1005)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |     DP      |
+|  11  |   20181   |    [ 꿈틀꿈틀 호석 애벌레 - 효율성 ](https://www.acmicpc.net/problem/20181)     | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |     DP      |
 
 ## 스터디 진행 순서
 
