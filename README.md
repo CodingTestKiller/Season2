@@ -40,7 +40,7 @@
 
 ## 주차별 문제
 
-> **푼 문제 수: 34**
+> **푼 문제 수: 37**
 
 | 주차 | 문제 번호 |                                    문제이름                                     |                                        레벨                                        |    분류     |
 | :--: | :-------: | :-----------------------------------------------------------------------------: | :--------------------------------------------------------------------------------: | :---------: |
@@ -78,6 +78,9 @@
 |  11  |   2758    |                 [ 로또 ](https://www.acmicpc.net/problem/2758)                  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/12.svg"/> |     DP      |
 |  11  |   1005    |               [ ACM Craft ](https://www.acmicpc.net/problem/1005)               | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |     DP      |
 |  11  |   20181   |    [ 꿈틀꿈틀 호석 애벌레 - 효율성 ](https://www.acmicpc.net/problem/20181)     | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |     DP      |
+|  12  |   1865    |                 [ 웜홀 ](https://www.acmicpc.net/problem/1865)                  | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/13.svg"/> |  최단거리   |
+|  12  |   20183   |      [ 골목 대장 호석 - 효율성 2 ](https://www.acmicpc.net/problem/20183)       | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/14.svg"/> |  최단거리   |
+|  12  |   2307    |               [ 도로검문 ](https://www.acmicpc.net/problem/2307)                | <img height="25px" width="25px" src="https://static.solved.ac/tier_small/15.svg"/> |  최단거리   |
 
 ## 스터디 진행 순서
 
