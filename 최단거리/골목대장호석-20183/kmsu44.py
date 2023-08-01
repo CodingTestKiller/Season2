@@ -1,6 +1,5 @@
 import sys
 import heapq
-from collections import deque
 
 input = sys.stdin.readline
 n, m, a, b, c = map(int, input().split())
@@ -22,7 +21,6 @@ def dijkstra(mid):
     distance[a] = 0
     while q:
         dist, now = heapq.heappop(q)
-        # print('dist', dist, 'now', now)
         if distance[now] < dist:
             continue
         for vertex, weight in graph[now]:

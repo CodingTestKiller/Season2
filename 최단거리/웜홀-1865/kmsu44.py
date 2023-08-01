@@ -1,4 +1,3 @@
-from collections import deque
 T = int(input())
 
 
